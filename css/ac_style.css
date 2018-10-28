@@ -70,13 +70,13 @@
 }
 
 .table {
-    width: 800px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: left;
 }
 
 .parts h6 {
+    margin-top: 10px;
     text-align: left;
     font-size: 13px;
 }

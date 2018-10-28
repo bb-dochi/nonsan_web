@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>육군훈련소</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/main_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" /> </head>
+
+<body>
+    <!-- 헤더 -->
+    <header id="header">
+        <div id="header_div">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <!-- 로고 -->
+                    <a class="navbar-brand" href="index.html"><img src="img/logo_white.png" alt="로고"></a>
+                    <!-- 화면이 줄었을 때 나올 메뉴 버튼 -->
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"> 
+                    <span class="navbar-toggler-icon"></span> 
+                    </button>
+                    
+                    <!-- 메뉴 -->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">부대소개</a>
+                                <div class="dropdown-menu "> 
+                                <a class="dropdown-item" href="01_introduce.html">훈련소 소개</a> 
+                                <a class="dropdown-item" href="01_introduce_map.html">오시는 길</a>
+                                <a class="dropdown-item" href="#">공지사항</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                               <a class="nav-link" href="#" data-toggle="dropdown">입영/수료</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="02_AdoptComplete.html">입영 준비</a> 
+                                <a class="dropdown-item" href="02_AdoptComplete_event.html">입영/수료 행사</a> 
+                                <a class="dropdown-item" href="#">병과 소개</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">훈련정보</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="03_Training.html">신병교육안내</a>
+                                <a class="dropdown-item" href="03_Training_process.html">현역</a>
+                                <a class="dropdown-item" href="#">보충역</a>
+                                <a class="dropdown-item" href="03_Training_facility.html">시설안내</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">가족/지인</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="04_family.html">내 자녀 찾기</a> 
+                                <a class="dropdown-item" href="04_family_letter.html">편지 쓰기</a> 
+                                <a class="dropdown-item" href="04_family_qna.html">Q&A</a> 
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">연대별 게시판</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="05_board.html">23연대</a> 
+                                <a class="dropdown-item" href="05_board.html">생략</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="headerContent">
+                <h1>육군훈련소</h1>
+                <p>"대한민국 최고"의 신병 교육기관 </p>
+                <div class="btn btn-primary"><a href="01_introduce.html">Learn more about us</a></div>
+            </div>
+    </div>    
+    </header>
+    
+    <!-- 메인콘텐츠 -->
+    <div class="main_div"> 
+        <!--    quick_menu     -->
+        <div class="background_opacity">
+            <div class="quick_menu">
+                <ul> 
+                    <li>
+                        <a href="04_family.html"> <img src="img/icon_people.png" alt="사람아이콘">
+                        <h5>훈련병찾기</h5></a>
+                    </li>
+                    <li>
+                        <a href="04_family_letter.html"> <img src="img/icon_letter.png" alt="편지아이콘">
+                        <h5>편지쓰기</h5></a>
+                    </li>
+                    <li>
+                        <a href="04_family_qna.html"> <img src="img/icon_question.png" alt="물음표아이콘">
+                        <h5>Q&A</h5></a>
+                    </li>
+                    <li>
+                        <a href="01_introduce_map.html"> <img src="img/icon_map.png" alt="지도아이콘">
+                        <h5>오시는 길</h5></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!--    inform_div     -->
+        <div class="inform_div">
+            <h3>1951년부터 <span class="counter">2018</span>년까지</h3>
+            <h3>약 <span class="counter">7,800,000</span> 명의 장병 양성</h3>
+            <h6>이번주 입영자 <span class="counter">1,527</span>명 / 수료예정자 <span class="counter">1,389</span>명</h6>
+        </div>
+        
+        <!--    img_menu     -->
+        <div class="img_menu">
+            <ul>
+                <li>
+                    <div class="box">
+                        <a href="02_AdoptComplete.html"><img src="img/hoguk.PNG" alt="훈련소사진"></a>
+                        <h4>입영/수료</h4>
+                        <h6>Adoption/ completion</h6> </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <a href="03_Training.html"><img src="img/hanggun.PNG" alt="훈련사진"></a>
+                        <h4>훈련과정</h4>
+                        <h6>Training process</h6> </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <a href="03_Training_facility.html"><img src="img/sisul.PNG" alt="시설사진"></a>
+                        <h4>시설안내</h4>
+                        <h6>Facility guide</h6> </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <a href="#"><img src="img/calendar.PNG" alt="달력사진"></a>
+                        <h4>전체일정</h4>
+                        <h6>Schedule information</h6> </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--    news_div     -->
+        <div class="news_div">
+            <h3>부대소식</h3>
+            <div class="slider">
+                <div class="card"> <img class="card-img-top" src="img/news1.PNG" alt="기사사진1">
+                    <div class="card-body">
+                    <h4 class="card-title">더캠프 앱 협약체결</h4>
+                    9월 5일 앱 개발사 '에이블다온소프트'와 업무 협약 체결 </div>
+                </div>
+                <div class="card"> <img class="card-img-top" src="img/news2.PNG" alt="기사사진2">
+                    <div class="card-body">
+                    <h4 class="card-title">호국보훈의 달 행사</h4>
+                    6.25전쟁 68주년 맞이 참전용사, 보훈단체 회원 부대 초청 열병식, 군악연주회 등 다양한 프로그램 실행 </div>
+                </div>
+                <div class="card"> <img class="card-img-top" src="img/news3.PNG" alt="기사사진3">
+                    <div class="card-body">
+                    <h4 class="card-title">대전현충원 참배</h4>
+                    호국보훈의 달을 맞아 기간장병 70여 명 대전 현충원 방문 </div>
+                </div>
+                <div class="card"> <img class="card-img-top" src="img/news4.PNG" alt="기사사진4">
+                    <div class="card-body">
+                    <h4 class="card-title">건강한 여름나기 시범식 교육</h4>
+                    혹서기 대비 '건강한 여름나기 시범식 교육' 실시 훈련소장 주관으로 연대장 등 교육 관계관들 참석 </div>
+                </div>
+                <div class="card"> <img class="card-img-top" src="img/news5.PNG" alt="기사사진5">
+                    <div class="card-body">
+                    <h4 class="card-title">연무대 가족사랑 콘서트</h4>
+                    '훈련소에서 함께 근무하며 동거동락하는 모두가 한가족'이라는 취지로 콘서트 개최. </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer부분  -->
+    <footer class="footer_div">
+        본사이트는 상업 목적상 활용(링크)를 금지하고 있습니다.<br/>
+        Copyright(c) Korea Army Training Center. All Right Reserved.
+    </footer>
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+        //0부터 써있는 숫자까지 카운트
+        $('.counter').counterUp({
+            delay: 20
+            , time: 3000
+        });
+        
+        //슬라이더 설정 : 네비게이션,무한,센터모드,한번에 보여줄 슬라이더, 자동재생
+        $('.slider').slick({
+            dots: true
+            , infinite: true
+            , centerMode: true
+            , centerPadding: '20%'
+            , slidesToShow: 3
+            , speed: 500
+            , autoplay: true
+            , autoplaySpeed: 2000
+            , prevArrow: false
+            , nextArrow: false
+            , responsive: [{
+                breakpoint: 992
+                , settings: {
+                    slidesToShow: 1
+                }
+                }]
+        });
+        /*
+        $(document).ready(function () {
+            $("#footer").load("footer.html");
+            $("#header").load("header.html");
+        });*/
+    </script>
+</body>
+
+</html>

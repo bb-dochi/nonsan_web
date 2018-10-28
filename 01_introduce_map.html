@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>육군훈련소</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/intro_style.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR|Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 헤더 부분-->
+    <header id="header">
+        <div id="header_div">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <!-- 로고 -->
+                    <a class="navbar-brand" href="index.html"><img src="img/logo_white.png" alt="로고"></a>
+                    <!-- 화면이 줄었을 때 나올 메뉴 버튼 -->
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"> 
+                    <span class="navbar-toggler-icon"></span> 
+                    </button>
+                    
+                    <!-- 메뉴 -->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">부대소개</a>
+                                <div class="dropdown-menu "> 
+                                <a class="dropdown-item" href="01_introduce.html">훈련소 소개</a> 
+                                <a class="dropdown-item" href="01_introduce_map.html">오시는 길</a>
+                                <a class="dropdown-item" href="#">공지사항</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                               <a class="nav-link" href="#" data-toggle="dropdown">입영/수료</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="02_AdoptComplete.html">입영 준비</a> 
+                                <a class="dropdown-item" href="02_AdoptComplete_event.html">입영/수료 행사</a> 
+                                <a class="dropdown-item" href="#">병과 소개</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">훈련정보</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="03_Training.html">신병교육안내</a>
+                                <a class="dropdown-item" href="03_Training_process.html">현역</a>
+                                <a class="dropdown-item" href="#">보충역</a>
+                                <a class="dropdown-item" href="03_Training_facility.html">시설안내</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">가족/지인</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="04_family.html">내 자녀 찾기</a> 
+                                <a class="dropdown-item" href="04_family_letter.html">편지 쓰기</a> 
+                                <a class="dropdown-item" href="04_family_qna.html">Q&A</a> 
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">  <!-- 드롭다운 메뉴 -->
+                                <a class="nav-link" href="#" data-toggle="dropdown">연대별 게시판</a>
+                                <div class="dropdown-menu"> 
+                                <a class="dropdown-item" href="05_board.html">23연대</a> 
+                                <a class="dropdown-item" href="05_board.html">생략</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="headerContent"> <h1>부대소개</h1> </div>
+            <div class="board_menu">
+            <ul class="nav justify-content-center">
+                <li><a href="01_introduce.html">훈련소 소개</a></li>
+                <li><a href="01_introduce_map.html">오시는 길</a></li>
+                <li><a href="05_board.html">공지사항</a></li>
+            </ul>
+            </div>
+        </div>   
+    </header>
+    
+    <!--  오시는길 메인 콘텐츠  -->
+    <div class="intro_div">
+       <div class="mapInform">
+        <div class="intro_head">
+            <h2>훈련소 위치</h2>
+            <h6>Welcome to Korea Army Training Center!</h6>
+        </div>
+        
+        <img src="img/map.gif" alt="훈련소지도" id="mapImg">
+        <button class="btn btn-outline-primary btn-sm" type="submit">크게보기</button>
+        
+        <h5>- 주소 : 충남 논산시 연무읍 득안대로 육군훈련소 입영심사대(입소대대)</h5>
+        <h5>- 네비게이션 : 입영심사대 또는 충남 논산 연무읍 황화정리 971-38</h5>
+        <h5>- ARS안내 : 041-740-7750~1 (1.훈련병문의 2.민원안내)</h5>
+        <div>
+            <h4>대중교통 이용방법</h4>
+            <table class="table table-bordered">
+                <tr>
+                    <td rowspan="2" class="titleTd">자가차량</td>
+                    <td class="contentTd">논산/천안(고) > 연무IC > 1번국도 > 입영심사대</td>
+                </tr>
+                <tr>
+                    <td class="contentTd">중부(고) > 논산IC > 1번국도 > 입영심사대</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="titleTd">지하철</td>
+                    <td class="contentTd">호남선 > 논산역하차 > 시내버스 201.202번 > 입영심사대</td>
+                </tr>
+                <tr>
+                    <td class="contentTd">경부선 > 대전역하차 > 동부시외버스터미널 > 연무읍(연무터미널) > 시내버스 201.202번 > 입영심사대</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    
+    <!-- footer부분  -->
+    <footer class="footer_div">
+        본사이트는 상업 목적상 활용(링크)를 금지하고 있습니다.<br/>
+        Copyright(c) Korea Army Training Center. All Right Reserved.
+    </footer>
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</body>
+
+</html>

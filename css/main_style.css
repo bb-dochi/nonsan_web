@@ -265,8 +265,7 @@
 }
 
 @media only screen
-    and (min-width : 321px) {
-    /* 아이콘 사이즈와 마진 조절해 작은화면에선 2,2개씩 보여지게 */
+    and (max-width : 321px) {
     .quick_menu img {
         width: 80px;
     }
